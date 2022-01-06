@@ -1,12 +1,21 @@
 .page {
   min-width: 1100px;
-  /* we don't know how to make mobile versions of websites yet, */
-  /* so here we've set a minimum page width */
   max-width: 1600px;
-  /* here we've set a maximum page width */
   margin: 0 auto;
-  /* this ensures that all content is centered on screens wider than 1600px */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", "Arial" , "sans-serif";
+}
+
+.logo_place_header {
+  background-image: url(/images/logo_place_header.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  width: 154px;
+  height: 31px;
+  z-index: 1;
 }
 
 .header {
@@ -16,10 +25,151 @@
   /* parameters for the header section */
 }
 
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
-.header__square-pic {
+.header__title {
+  display: flex;
+  align-items: center;
+  margin-right: 64px;
+  z-index: 1;
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  width: 388px;
+  z-index: 1;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__link {
+  color: #2f80ed;
+}
+
+.header__main-illustration{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 756px;
+  height: 608px;
+  z-index: 1;
+}
+
+.header__square {
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  color: #2f80ed;
   height: 568px;
   width: 568px;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+  width: 80%;
+}
+
+.two-columns__brief {
+  color: #2f80ed;
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph {
+  margin-bottom: 30px;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0px;
+}
+
+.ditits {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-title {
+  width: 60%;
+  margin-bottom: 20px;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-title_theme_light {
+  margin-top: 100px;
+}
+
+.section-subtitle {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  flex-wrap: wrap;
+}
+
+.table_theme_light {
+  margin: 60px auto;
+}
+
+.table:last-child {
+  margin-bottom: 0;
+}
+
+.table__cell {
+  width: 250px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.feynman {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.feynman__title {
+  ma
 }
 
 /* including elements with key-value modifiers */
