@@ -107,7 +107,7 @@
 }
 
 .ditits {
-  padding: 100px auto;
+  margin: 100px auto;
 }
 
 .section-title {
@@ -193,7 +193,7 @@
 
 .kaufman {
   overflow: hidden;
-  padding: 90px auto;
+  margin: 90px auto;
   background-color: #1f1f1f;
 }
 
@@ -279,5 +279,5 @@
 .footer__social-icons {
   height: 16px;
   width: 16px;
-  padding: auto 10px auto 0px;
+  margin: auto 10px auto 0px;
 }
