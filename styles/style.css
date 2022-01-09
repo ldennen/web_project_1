@@ -263,10 +263,9 @@
 
 .footer__column_content_copyright {
   flex-basis: 711px;
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
   padding: 0;
+  margin: 0;
 }
 
 .logo_place_footer {
@@ -290,7 +289,10 @@
 .footer__column_content_about {
   color: white;
   flex-direction: column;
+  justify-content: flex-start;
   width: fit-content;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__column-heading {
@@ -318,7 +320,10 @@
 .footer__column_content_social {
   color: white;
   flex-direction: column;
+  justify-content: flex-start;
   width: fit-content;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__social-icons {
