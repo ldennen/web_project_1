@@ -36,6 +36,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  position: relative;
 }
 
 .header__subtitle {
@@ -43,7 +44,7 @@
   left: 64px;
   bottom: 30px;
   width: 388px;
-  z-index: 1;
+  z-index: 2;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -227,6 +228,11 @@
 .section-subtitle_theme_dark {
   color: white;
   z-index: 1;
+  position: relative;
+}
+
+.table_theme_dark {
+  margin: 0 auto;
 }
 
 .table__cell_theme_dark {
