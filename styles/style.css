@@ -272,6 +272,8 @@
   flex-direction: column;
   padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
