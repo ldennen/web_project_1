@@ -1,3 +1,13 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -72,13 +82,16 @@
   background-color: #2f80ed;
   height: 568px;
   width: 568px;
+  transform: rotate(15deg);
+  animation: rotation 20s linear infinite;
 }
 
 .two-columns {
   display: flex;
   justify-content: space-between;
-  margin: 100px auto;
+  margin: 0 auto;
   width: 80%;
+  padding: 100px 0 0;
 }
 
 .two-columns__brief {
@@ -112,14 +125,87 @@
   margin-bottom: 0;
 }
 
+.techniques {
+  margin: 100px auto 0;
+
+}
+
+.cards {
+  max-width: 920px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.card__item {
+  padding: 60px 0;
+  max-width: 240px;
+  margin-right: 100px;
+}
+.card__item:nth-last-of-type(3n) {
+  margin: 0;
+}
+
+.card__image {
+  margin: 0 40px 43px;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+}
+
+.card__title {
+  margin: 0 0 16px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card__description {
+  text-align: center;
+  margin: 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.video {
+  margin: 100px auto -40px;
+}
+
+.video__iframes {
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: center;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+  margin-right: 20px;
+  border: 0;
+}
+
+.video__iframe:last-of-type {
+  margin: 0;
+}
+
+.oakley {
+  background-color: #f2f2f2;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
 .ditits {
   margin: 0 0 100px;
 }
 
 .section-title {
-  width: 60%;
+  max-width: 60%;
   margin: 0 auto 20px;
-  line-height: 69px;
+  line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
   justify-content: center;
@@ -127,7 +213,7 @@
 }
 
 .section-subtitle {
-  width: 60%;
+  max-width: 60%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -172,7 +258,7 @@
 
 .feynman__title {
   margin: 0 auto;
-  padding: 100px 0 70px;
+  padding: 0 0 70px;
   width: 776px;
   line-height: 1.15;
   font-size: 120px;
@@ -210,6 +296,38 @@
   left: 0;
   height: 637px;
   width: 867px;
+}
+
+.khan {
+  background-color: #f2f2f2;
+  padding: 100px auto 0;
+}
+
+.khan__container {
+  max-width: 80%;
+  margin: 0 auto 0;
+}
+
+.khan__quote {
+  max-width: 790px;
+  margin: 50px 0 36px;
+}
+
+.khan__quote-author {
+  margin-bottom: 10px;
+}
+
+.khan__quote-author-subline {
+  margin-bottom: 68px;
+}
+
+.khan__book-container {
+  width: 620px;
+  height: 608px;
+}
+
+.khan__book-pic{
+  margin-right: 48px;
 }
 
 .kaufman {
