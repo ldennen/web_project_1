@@ -1,0 +1,8 @@
+.footer__column_content_about {
+  color: white;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+}
